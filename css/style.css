@@ -128,11 +128,11 @@ body{
 
 
 ::-moz-placeholder{
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 ::-webkit-input-placeholder{
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #woe{
@@ -140,7 +140,6 @@ body{
     width: 105%;
     border: none;
     background-color: #181a1b;
-    color: rgba(255, 255, 255, 0.5);
 }
 
 #woe::selection{
@@ -149,7 +148,6 @@ body{
 
 #woe:focus{
     outline: none;
-    color: white;
 }
 
 
