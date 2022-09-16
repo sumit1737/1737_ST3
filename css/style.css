@@ -126,14 +126,17 @@ body{
     padding-right: 2rem;
 }
 
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
 
-::-moz-placeholder{
+/* ::-moz-placeholder{
     color: rgba(255, 255, 255, 0.5);
 }
 
 ::-webkit-input-placeholder{
     color: rgba(255, 255, 255, 0.5);
-}
+} */
 
 #woe{
     font-size: 1.5rem;
