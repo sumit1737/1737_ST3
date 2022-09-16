@@ -140,7 +140,7 @@ body{
     width: 105%;
     border: none;
     background-color: #181a1b;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #woe::selection{
@@ -149,6 +149,7 @@ body{
 
 #woe:focus{
     outline: none;
+    color: white;
 }
 
 
