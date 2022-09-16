@@ -61,12 +61,13 @@ body{
     height: 35vh;
     width: 32vw;
     border-radius: 20px;
-    background-color: rgba(100, 100, 100, 0.4);
+    background-color: rgba(75, 82, 85, 0.4);
     backdrop-filter: blur(4px);
     overflow-x: hidden;
     overflow-y: hidden;
     transition:visibility 0.5s linear,opacity 0.5s linear;
     align-items: center;
+    color: white;
 }
 
 #dataHolder{
@@ -130,19 +131,12 @@ body{
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* ::-moz-placeholder{
-    color: rgba(255, 255, 255, 0.5);
-}
-
-::-webkit-input-placeholder{
-    color: rgba(255, 255, 255, 0.5);
-} */
-
 #woe{
     font-size: 1.5rem;
     width: 105%;
     border: none;
     background-color: #181a1b;
+    color: white;
 }
 
 #woe::selection{
