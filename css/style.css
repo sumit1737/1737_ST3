@@ -139,6 +139,8 @@ body{
     font-size: 1.5rem;
     width: 105%;
     border: none;
+    background-color: #181a1b;
+    color: white;
 }
 
 #woe::selection{
